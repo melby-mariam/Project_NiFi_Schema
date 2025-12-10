@@ -1,0 +1,19 @@
+# NiFi Schema Validation Automation (Skeleton)
+
+## Structure
+
+- `input/`
+  - `schema.pdf` – file schema PDF (you provide)
+  - `nifi_file.csv` – NiFi file (you provide, delimiter auto-detected)
+- `schema/`
+  - `schema.md` – generated from PDF
+- `reports/`
+  - `validation_report.xlsx` – generated Excel report
+- `logs/`
+  - `run.log` – run log
+- `src/` – source code
+
+## Setup
+
+```bash
+pip install -r requirements.txt
